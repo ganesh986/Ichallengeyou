@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">I challenge you!</string>
+
+    <string name="Q1">Who began directing with "Grand Theft Auto" (1977) and won his first Best Director Oscar for "A Beautiful Mind" (2001)?</string>
+    <string name="A1_1">Steven Spielberg</string>
+    <string name="A1_2">Ron Howard</string>///
+    <string name="A1_3">Mel Gibson</string>
+    <string name="A1_4">George Lucas</string>
+
+    <string name="Q2">Which English duo had hits between 1984 and 1987 that included West End Girls, Opportunities (Let\'s Make Lots of Money), Love Comes Quickly, Suburbia, It\'s a Sin, What Have I Done to Deserve This?, Rent and Always on My Mind?</string>
+    <string name="A2_1">Cheap Trick</string>
+    <string name="A2_2">Eurythmics</string>
+    <string name="A2_3">Pet Shop Boys</string>///
+    <string name="A2_4">Black \'n Blue</string>
+
+    <string name="Q3">Who of his family joined Louis XVI of France in going to the guillotine in 1793?</string>
+    <string name="A3_1">His daughter</string>
+    <string name="A3_2">His brother</string>
+    <string name="A3_3">His mother-in-law</string>
+    <string name="A3_4">His wife</string>///
+
+    <string name="Q4">What is the name of the tallest structure ever built?</string>
+    <string name="A4_1">Burj Khalifa</string>
+    <string name="A4_2">CN Tower</string>
+    <string name="A4_3">Grollo Tower</string>///
+    <string name="A4_4">Taipei 101</string>
+
+    <string name="Q5">Who is the only British Prime Minister to have received the Nobel Prize in Literature?</string>
+    <string name="A5_1">Anthony Eden</string>
+    <string name="A5_2">Clement Attlee</string>
+    <string name="A5_3">Harold Macmillan</string>///
+    <string name="A5_4">Sir Winston Churchill</string>
+
+    <string name="Q6">One of the tools proposed in detecting skin cancer is called what?</string>
+    <string name="A6_1">Molelist</string>
+    <string name="A6_2">Molechart</string>
+    <string name="A6_3">Molegraph</string>
+    <string name="A6_4">Molemap</string>///
+
+    <string name="Q7">What word or phrase originates from the practice on the classical stage of introducing a god from above to effect a speedy denouement?</string>
+    <string name="A7_1">Photokineticism</string>
+    <string name="A7_2">Mon dieu et mon droit</string>
+    <string name="A7_3">Daguerreotype</string>
+    <string name="A7_4">Deus ex machina</string>///
+
+    <string name="Q8">For which of the following disciplines is Nobel Prize awarded?(MORE THEN ONE ANSWER)</string>
+    <string name="A8_1">Physics</string>
+    <string name="A8_2">Math</string>
+    <string name="A8_3">Economics</string>
+    <string name="A8_4">Chemistry</string>
+
+    <string name="Q9">Jamaica is closest to which state in the U.S.?</string>
+    <string name="A9_1">Write your answer here</string>
+
+    <string name="Q10">What colour is a NYC taxi?</string>
+    <string name="A10_1">Write your answer here</string>///Florida
+
+    <string name="submit">submit</string>
+    <string name="reset">reset</string>
+
+</resources>
