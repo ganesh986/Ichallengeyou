@@ -151,7 +151,7 @@ public class MainActivity extends AppCompatActivity {
 
             //Displays toast message with the score
             if (score >= 0 && score < 5) {
-                Toast.makeText(this, "YOU ARE A LOOSER! Only " + score + " right answers!", Toast.LENGTH_LONG).show();
+                Toast.makeText(this, "OH NO!!! Only " + score + " right answers!", Toast.LENGTH_LONG).show();
             } else if (score >= 5 && score <= 8) {
                 Toast.makeText(this, "Good job! You have answered " + score + " questions correctly!", Toast.LENGTH_LONG).show();
             } else {
