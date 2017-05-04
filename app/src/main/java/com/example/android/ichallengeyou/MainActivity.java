@@ -120,11 +120,13 @@ public class MainActivity extends AppCompatActivity {
         //Check  Q 8
         CheckBox checkBoxPhysics = (CheckBox) findViewById(R.id.physics);
         boolean checkedPhisics = checkBoxPhysics.isChecked();
+        CheckBox checkBoxMath = (CheckBox) findViewById(R.id.math);
+        boolean checkedMath = checkBoxMath.isChecked();
         CheckBox checkBoxEconomics = (CheckBox) findViewById(R.id.economics);
         boolean checkedEconomics = checkBoxEconomics.isChecked();
         CheckBox checkBoxChemistry = (CheckBox) findViewById(R.id.chemistry);
         boolean checkedChemistry = checkBoxChemistry.isChecked();
-        if (checkedPhisics && checkedEconomics && checkedChemistry)
+        if (checkedPhisics && checkedEconomics && checkedChemistry && !checkedMath)
             score += 1;
 
         //Check Q 9
