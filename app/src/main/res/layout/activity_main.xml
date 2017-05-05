@@ -4,26 +4,26 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#448AFF"
+    android:background="@color/scrollViewBackGround"
     tools:context="com.example.android.ichallengeyou.MainActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#FFFFFF"
+        android:background="@color/mainBackGround"
         android:orientation="vertical"
-        android:paddingBottom="8dp"
-        android:paddingLeft="8dp"
-        android:paddingRight="8dp"
-        android:paddingTop="8dp">
+        android:paddingBottom="@dimen/padding_bottom"
+        android:paddingLeft="@dimen/padding_left"
+        android:paddingRight="@dimen/padding_right"
+        android:paddingTop="@dimen/padding_top">
 
         <TextView
             android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="@color/textColor"
-            android:padding="4dp"
-            android:text="@string/Q1" />
+            android:padding="@dimen/padding"
+            android:text="@string/Q1"
+            android:textColor="@color/textColor" />
 
 
         <RadioGroup
@@ -60,21 +60,21 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="8dp"
-            android:layout_marginTop="8dp"
-            android:paddingTop="8dp"
-            android:paddingBottom="8dp"
-            android:background="#448AFF"
-            android:orientation="vertical">
+            android:layout_marginBottom="@dimen/margin_bottom"
+            android:layout_marginTop="@dimen/margin_top"
+            android:background="@color/horizontalBar"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/padding_bottom"
+            android:paddingTop="@dimen/padding_top">
 
         </RelativeLayout>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="@color/textColor"
-            android:padding="4dp"
-            android:text="@string/Q2" />
+            android:padding="@dimen/padding"
+            android:text="@string/Q2"
+            android:textColor="@color/textColor" />
 
         <RadioGroup
             android:id="@+id/radioGroup2"
@@ -110,21 +110,21 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="8dp"
-            android:layout_marginTop="8dp"
-            android:background="#448AFF"
+            android:layout_marginBottom="@dimen/margin_bottom"
+            android:layout_marginTop="@dimen/margin_top"
+            android:background="@color/horizontalBar"
             android:orientation="vertical"
-            android:paddingTop="8dp"
-            android:paddingBottom="8dp">
+            android:paddingBottom="@dimen/padding_bottom"
+            android:paddingTop="@dimen/padding_top">
 
         </RelativeLayout>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="@color/textColor"
-            android:padding="4dp"
-            android:text="@string/Q3" />
+            android:padding="@dimen/padding"
+            android:text="@string/Q3"
+            android:textColor="@color/textColor" />
 
         <RadioGroup
             android:id="@+id/radioGroup3"
@@ -160,21 +160,21 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="8dp"
-            android:layout_marginTop="8dp"
-            android:background="#448AFF"
+            android:layout_marginBottom="@dimen/margin_bottom"
+            android:layout_marginTop="@dimen/margin_top"
+            android:background="@color/horizontalBar"
             android:orientation="vertical"
-            android:paddingTop="8dp"
-            android:paddingBottom="8dp">
+            android:paddingBottom="@dimen/padding_bottom"
+            android:paddingTop="@dimen/padding_top">
 
         </RelativeLayout>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="@color/textColor"
-            android:padding="4dp"
-            android:text="@string/Q4" />
+            android:padding="@dimen/padding"
+            android:text="@string/Q4"
+            android:textColor="@color/textColor" />
 
         <RadioGroup
             android:id="@+id/radioGroup4"
@@ -210,21 +210,21 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="8dp"
-            android:layout_marginTop="8dp"
-            android:background="#448AFF"
+            android:layout_marginBottom="@dimen/margin_bottom"
+            android:layout_marginTop="@dimen/margin_top"
+            android:background="@color/horizontalBar"
             android:orientation="vertical"
-            android:paddingTop="8dp"
-            android:paddingBottom="8dp">
+            android:paddingBottom="@dimen/padding_bottom"
+            android:paddingTop="@dimen/padding_top">
 
         </RelativeLayout>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="@color/textColor"
-            android:padding="4dp"
-            android:text="@string/Q5" />
+            android:padding="@dimen/padding"
+            android:text="@string/Q5"
+            android:textColor="@color/textColor" />
 
         <RadioGroup
             android:id="@+id/radioGroup5"
@@ -260,21 +260,21 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="8dp"
-            android:layout_marginTop="8dp"
-            android:background="#448AFF"
+            android:layout_marginBottom="@dimen/margin_bottom"
+            android:layout_marginTop="@dimen/margin_top"
+            android:background="@color/horizontalBar"
             android:orientation="vertical"
-            android:paddingTop="8dp"
-            android:paddingBottom="8dp">
+            android:paddingBottom="@dimen/padding_bottom"
+            android:paddingTop="@dimen/padding_top">
 
         </RelativeLayout>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="@color/textColor"
-            android:padding="4dp"
-            android:text="@string/Q6" />
+            android:padding="@dimen/padding"
+            android:text="@string/Q6"
+            android:textColor="@color/textColor" />
 
         <RadioGroup
             android:id="@+id/radioGroup6"
@@ -310,21 +310,21 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="8dp"
-            android:layout_marginTop="8dp"
-            android:background="#448AFF"
+            android:layout_marginBottom="@dimen/margin_bottom"
+            android:layout_marginTop="@dimen/margin_top"
+            android:background="@color/horizontalBar"
             android:orientation="vertical"
-            android:paddingTop="8dp"
-            android:paddingBottom="8dp">
+            android:paddingBottom="@dimen/padding_bottom"
+            android:paddingTop="@dimen/padding_top">
 
         </RelativeLayout>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="@color/textColor"
-            android:padding="4dp"
-            android:text="@string/Q7" />
+            android:padding="@dimen/padding"
+            android:text="@string/Q7"
+            android:textColor="@color/textColor" />
 
         <RadioGroup
             android:id="@+id/radioGroup7"
@@ -360,21 +360,21 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="8dp"
-            android:layout_marginTop="8dp"
-            android:background="#448AFF"
+            android:layout_marginBottom="@dimen/margin_bottom"
+            android:layout_marginTop="@dimen/margin_top"
+            android:background="@color/horizontalBar"
             android:orientation="vertical"
-            android:paddingTop="8dp"
-            android:paddingBottom="8dp">
+            android:paddingBottom="@dimen/padding_bottom"
+            android:paddingTop="@dimen/padding_top">
 
         </RelativeLayout>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="@color/textColor"
-            android:padding="4dp"
-            android:text="@string/Q8" />
+            android:padding="@dimen/padding"
+            android:text="@string/Q8"
+            android:textColor="@color/textColor" />
 
         <CheckBox
             android:id="@+id/physics"
@@ -403,21 +403,21 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="8dp"
-            android:layout_marginTop="8dp"
-            android:background="#448AFF"
+            android:layout_marginBottom="@dimen/margin_bottom"
+            android:layout_marginTop="@dimen/margin_top"
+            android:background="@color/horizontalBar"
             android:orientation="vertical"
-            android:paddingTop="8dp"
-            android:paddingBottom="8dp">
+            android:paddingBottom="@dimen/padding_bottom"
+            android:paddingTop="@dimen/padding_top">
 
         </RelativeLayout>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="@color/textColor"
-            android:padding="4dp"
-            android:text="@string/Q9" />
+            android:padding="@dimen/padding"
+            android:text="@string/Q9"
+            android:textColor="@color/textColor" />
 
         <EditText
             android:id="@+id/jamaica"
@@ -429,21 +429,21 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="8dp"
-            android:layout_marginTop="8dp"
-            android:background="#448AFF"
+            android:layout_marginBottom="@dimen/margin_bottom"
+            android:layout_marginTop="@dimen/margin_top"
+            android:background="@color/horizontalBar"
             android:orientation="vertical"
-            android:paddingTop="8dp"
-            android:paddingBottom="8dp">
+            android:paddingBottom="@dimen/padding_bottom"
+            android:paddingTop="@dimen/padding_top">
 
         </RelativeLayout>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="@color/textColor"
-            android:padding="4dp"
-            android:text="@string/Q10" />
+            android:padding="@dimen/padding"
+            android:text="@string/Q10"
+            android:textColor="@color/textColor" />
 
         <EditText
             android:id="@+id/taxi"
@@ -455,18 +455,18 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginBottom="8dp"
-            android:layout_marginTop="8dp"
-            android:background="#448AFF"
+            android:layout_marginBottom="@dimen/margin_bottom"
+            android:layout_marginTop="@dimen/margin_top"
+            android:background="@color/horizontalBar"
             android:orientation="horizontal">
 
             <LinearLayout
                 android:id="@+id/linearLayout1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
                 android:gravity="center_horizontal"
-                android:padding="6dp"
+                android:orientation="horizontal"
+                android:padding="@dimen/padding_button"
                 android:weightSum="2">
 
                 <Button
@@ -474,23 +474,22 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_alignParentStart="true"
-                    android:onClick="submit"
+                    android:layout_weight="1"
                     android:gravity="center"
-                    android:text="@string/submit"
-                    android:layout_weight="1"/>
+                    android:onClick="submit"
+                    android:text="@string/submit" />
 
                 <Button
                     android:id="@+id/reset"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_alignParentEnd="true"
-                    android:onClick="reset"
+                    android:layout_weight="1"
                     android:gravity="center"
-                    android:text="@string/reset"
-                    android:layout_weight="1"/>
+                    android:onClick="reset"
+                    android:text="@string/reset" />
 
             </LinearLayout>
-
 
 
         </RelativeLayout>

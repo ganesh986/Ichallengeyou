@@ -4,4 +4,7 @@
     <color name="colorPrimaryDark">#D32F2F</color>
     <color name="colorAccent">#448AFF</color>
     <color name="textColor">#000000</color>
+    <color name="scrollViewBackGround">#448AFF</color>
+    <color name="mainBackGround">#FFFFFF</color>
+    <color name="horizontalBar">#FFFFFF</color>
 </resources>

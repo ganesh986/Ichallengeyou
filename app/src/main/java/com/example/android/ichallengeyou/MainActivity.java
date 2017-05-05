@@ -132,7 +132,7 @@ public class MainActivity extends AppCompatActivity {
         //Check Q 9
         EditText jamaica = (EditText) findViewById(R.id.jamaica);
         boolean Florida = false;
-        if (jamaica.getText().toString().equals("Florida") || jamaica.getText().toString().equals("florida")) {
+        if (jamaica.getText().toString().toLowerCase().trim().equals("florida")) {
             score += 1;
             Florida = true;
 
@@ -141,7 +141,7 @@ public class MainActivity extends AppCompatActivity {
         //Checks Q 10
         EditText taxyColor = (EditText) findViewById(R.id.taxi);
         boolean NYCTaxy = false;
-        if (taxyColor.getText().toString().equals("Yellow") || taxyColor.getText().toString().equals("yellow")) {
+        if (taxyColor.getText().toString().toLowerCase().trim().equals("yellow")) {
             score += 1;
             NYCTaxy = true;
 
