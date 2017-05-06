@@ -62,11 +62,9 @@ public class MainActivity extends AppCompatActivity {
             answer += 1;
         }
         TextView Taxy = (TextView) findViewById(R.id.taxi);
-//        Log.d("MY LOG","TAXY "+Taxy.getText().length());
         if (Taxy.getText().length() > 0) {
             answer += 1;
         }
-//        Log.d("MY LOG","ANSWER "+answer);
         return answer;
     }
 
